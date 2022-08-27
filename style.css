@@ -9,14 +9,22 @@ body {
     background-image: url("imagens/fundo-madeira.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     background-attachment: fixed;
     height: 100vh;
 }
 
-iframe {
-    display: block;
-    margin: auto;
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#phone {
+    position: absolute;
+    background-image: url("imagens/frame-iphone.png");
     height: 627px;
     width: 311px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
