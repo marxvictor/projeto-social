@@ -42,13 +42,17 @@ section#redes-sociais {
     margin: 20px;
 }
 
-section#redes-sociais img {
+section#redes-sociais > a > img {
     width: 60px;
     margin: 5px;
     border-radius: 50%;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.445);
+    box-sizing: border-box;
 }
 
-section#redes-sociais img:hover {
-    border-radius: 1px solid white;
+img:hover {
+    border: 2px solid white;
+    transform: translate(-3px,-3px);
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    transition: .5s;
 }
